@@ -24,37 +24,37 @@ Se ha creado un **proyecto completo de automatización de pruebas** para la tien
 ```
 src/main/java/com/interbank/shop/
 ├── actors/
-│   └── ShopActor.java                    ✅ Actor del sistema
+│   └── ShopActor.java                    Actor del sistema
 ├── tasks/
-│   ├── OpenShopPage.java                 ✅ Abrir página
-│   ├── SelectProduct.java                ✅ Seleccionar producto
-│   ├── ViewCart.java                     ✅ Ver carrito
-│   ├── ProceedToCheckout.java            ✅ Ir a checkout
-│   └── CompleteCheckout.java             ✅ Completar compra
+│   ├── OpenShopPage.java                 Abrir página
+│   ├── SelectProduct.java                Seleccionar producto
+│   ├── ViewCart.java                     Ver carrito
+│   ├── ProceedToCheckout.java            Ir a checkout
+│   └── CompleteCheckout.java             Completar compra
 ├── questions/
-│   ├── CartTotal.java                    ✅ Obtener total
-│   ├── NumberOfItemsInCart.java          ✅ Contar artículos
-│   ├── OrderConfirmationMessage.java     ✅ Confirmación
-│   └── CartItemDetails.java              ✅ Detalles de artículos
+│   ├── CartTotal.java                    Obtener total
+│   ├── NumberOfItemsInCart.java          Contar artículos
+│   ├── OrderConfirmationMessage.java     Confirmación
+│   └── CartItemDetails.java              Detalles de artículos
 ├── locators/
-│   └── ShopPageLocators.java             ✅ Localizadores XPath
+│   └── ShopPageLocators.java             Localizadores XPath
 └── utils/
-    └── CSVDataReader.java                ✅ Lector CSV
+    └── CSVDataReader.java                Lector CSV
 ```
 
 ### Tests - Cucumber BDD
 ```
 src/test/java/com/interbank/shop/
 ├── stepdefinitions/
-│   └── ShoppingStepDefinitions.java      ✅ Pasos en español
+│   └── ShoppingStepDefinitions.java      Pasos en español
 └── runners/
-    └── CucumberTestRunner.java           ✅ Ejecutor Cucumber
+    └── CucumberTestRunner.java           Ejecutor Cucumber
 
 src/test/resources/
 ├── features/
-│   └── shopping.feature                  ✅ 3 escenarios Gherkin
+│   └── shopping.feature                  3 escenarios Gherkin
 └── data/
-    └── testdata.csv                      ✅ Datos de prueba
+    └── testdata.csv                      Datos de prueba
 ```
 
 ---
@@ -114,7 +114,7 @@ Archivo: `src/test/resources/data/testdata.csv`
 
 ---
 
-## 🎯 Características Implementadas
+##  Características Implementadas
 
 ✅ **Patrón Screenplay**: Separación clara entre Actors, Tasks y Questions
 ✅ **BDD con Cucumber**: Escenarios en español con Gherkin
@@ -129,7 +129,7 @@ Archivo: `src/test/resources/data/testdata.csv`
 
 ---
 
-## 🚀 Comandos de Ejecución
+## Comandos de Ejecución
 
 ### Compilar el proyecto
 ```bash
