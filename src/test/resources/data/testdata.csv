@@ -1,0 +1,11 @@
+productName,category,size,isValid,expectedResult
+Jacket,Men's Outerwear,XL,true,Success
+Jacket,Women's Outerwear,S,true,Success
+Jacket,Men's Outerwear,L,true,Success
+Jacket,Women's Outerwear,XS,true,Success
+InvalidProduct,Men's Outerwear,XL,false,Error
+Jacket,Men's Outerwear,XXXL,false,Error
+Jacket,Women's Outerwear,XXXXS,false,Error
+NonExistentItem,Men's Outerwear,M,false,Error
+T-Shirt,Men's T-Shirts,M,true,Success
+T-Shirt,Women's T-Shirts,S,true,Success
